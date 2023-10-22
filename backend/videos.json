@@ -6,7 +6,7 @@
         "description": "3 mil visualizações",
         "url": "https://www.youtube.com/embed/y8FeZMv37WU",
         "image": "https://github.com/MonicaHillman/aluraplay-requisicoes/blob/main/img/logo.png?raw=true",
-        "categoria": "Programação"
+        "category": "Programação"
       },
       {
         "id": 2,
@@ -14,7 +14,7 @@
         "description": "1,5 mil visualizações",
         "url": "https://www.youtube.com/embed/fmu1LQvZhms",
         "image": "https://github.com/MonicaHillman/aluraplay-requisicoes/blob/main/img/logo.png?raw=true",
-        "categoria": "Mobile"
+        "category": "Mobile"
       },
       {
         "id": 3,
@@ -22,7 +22,7 @@
         "description": "30 mil visualizações",
         "url": "https://www.youtube.com/embed/jpuJ1qrluoU",
         "image": "https://github.com/MonicaHillman/aluraplay-requisicoes/blob/main/img/logo.png?raw=true",
-        "categoria": "Programação"
+        "category": "Programação"
       },
       {
         "id": 4,
@@ -30,7 +30,7 @@
         "description": "2,5 mil visualizações",
         "url": "https://www.youtube.com/embed/h83e1aAM5xQ",
         "image": "https://github.com/MonicaHillman/aluraplay-requisicoes/blob/main/img/logo.png?raw=true",
-        "categoria": "Data Science"
+        "category": "Data Science"
       },
       {
         "id": 5,
@@ -38,7 +38,7 @@
         "description": "1,2 mil visualizações",
         "url": "https://www.youtube.com/embed/CnB3eLTrkn4",
         "image": "https://github.com/MonicaHillman/aluraplay-requisicoes/blob/main/img/logo.png?raw=true",
-        "categoria": "Podcasts"
+        "category": "Podcasts"
       },
       {
         "id": 6,
@@ -46,7 +46,7 @@
         "description": "1,6 mil visualizações",
         "url": "https://www.youtube.com/embed/vf9P_PycgRw",
         "image": "https://github.com/MonicaHillman/aluraplay-requisicoes/blob/main/img/logo.png?raw=true",
-        "categoria": "Mobile"
+        "category": "Mobile"
       },
       {
         "id": 7,
@@ -54,7 +54,7 @@
         "description": "3,2 mil visualizações",
         "url": "https://www.youtube.com/embed/Nts3P35mHzE",
         "image": "https://github.com/MonicaHillman/aluraplay-requisicoes/blob/main/img/logo.png?raw=true",
-        "categoria": "Data Science"
+        "category": "Data Science"
       },
       {
         "id": 8,
@@ -62,7 +62,7 @@
         "description": "1,2 mil visualizações",
         "url": "https://www.youtube.com/embed/HBVCsBtsmzA",
         "image": "https://github.com/MonicaHillman/aluraplay-requisicoes/blob/main/img/logo.png?raw=true",
-        "categoria": "Programação"
+        "category": "Programação"
       },
       {
         "title": "[Casa do Código] Live de lançamento: Navegando no Universo da Programação",
@@ -70,7 +70,7 @@
         "url": "https://www.youtube.com/embed/z43rcfjXOxU",
         "image": "https://github.com/MonicaHillman/aluraplay-requisicoes/blob/main/img/logo.png?raw=true",
         "id": 9,
-        "categoria": "Ao Vivo"
+        "category": "Ao Vivo"
       },
       {
         "title": "Guia de carreira Front-end | #HipstersPontoTube",
@@ -78,7 +78,7 @@
         "url": "https://www.youtube.com/embed/fpth65ts3cw",
         "image": "https://github.com/MonicaHillman/aluraplay-requisicoes/blob/main/img/logo.png?raw=true",
         "id": 10,
-        "categoria": "Debates"
+        "category": "Debates"
       },
       {
         "title": "Educação coorporativa",
@@ -86,7 +86,7 @@
         "url": "https://www.youtube.com/embed/IGFSiBJIXFQ",
         "image": "https://github.com/MonicaHillman/aluraplay-requisicoes/blob/main/img/logo.png?raw=true",
         "id": 11,
-        "categoria": "Inovação"
+        "category": "Inovação"
       },
       {
         "title": "Como deixar o Layout Responsivo no seu site | #AluraMais",
@@ -94,7 +94,7 @@
         "url": "https://www.youtube.com/embed/kyFiT4ofMwk",
         "image": "https://github.com/MonicaHillman/aluraplay-requisicoes/blob/main/img/logo.png?raw=true",
         "id": 12,
-        "categoria": "Front-end"
+        "category": "Front-end"
       },
       {
         "title": "Será que a inteligência artificial será tão poderosa quanto os seres humanos? com Gui Silveira",
@@ -102,7 +102,7 @@
         "url": "https://www.youtube.com/embed/Kk3vBRqKA2o",
         "image": "https://github.com/MonicaHillman/aluraplay-requisicoes/blob/main/img/logo.png?raw=true",
         "id": 13,
-        "categoria": "Inteligência Artificial"
+        "category": "Inteligência Artificial"
       }
     ]
   }
