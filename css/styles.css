@@ -28,7 +28,7 @@ body {
 
 /* CABEÇALHO */
 
-.cabecalho__container {
+.head__container {
     background-color: var(--branco);
     height: 80px;
     width: 100%;
@@ -40,20 +40,20 @@ body {
     cursor: pointer;
 }
 
-.pesquisar__input {
+.search__input {
     padding: 8px;
     border: 2px solid var(--cinza-claro);
     border-radius: 32px 0px 0px 32px;
     font-size: 16px;
 }
 
-.pesquisar__input-teclado{
+.search__input-keyboard {
     position: absolute;
     right: 16%;
     top: 30%;
 }
 
-.pesquisar__btn {
+.search__btn {
     background-color: var(--cinza-claro);
     border: 0px;
     border-radius: 0px 32px 32px 0px;
@@ -63,40 +63,40 @@ body {
     cursor: pointer;
 }
 
-.cabecalho__audio {
+.head__audio {
     border: 0px;
     background-color: var(--branco);
 }
 
-.cabecalho__videos {
+.head__videos {
     background-image: url(../img/topbar/video_call.png);
     background-repeat: no-repeat;
     background-position: center;
     padding: 20px;
 }
 
-.cabecalho__apps {
+.head__apps {
     background-image: url(../img/topbar/apps.png);
     background-repeat: no-repeat;
     background-position: center;
     padding: 13px 30px 13px 13px;
 }
 
-.cabecalho__notificacoes {
+.head__notifications {
     background-image: url(../img/topbar/notifications.png);
     background-repeat: no-repeat;
     background-position: center;
     padding: 13px 30px 13px 13px;
 }
 
-.cabecalho__avatar {
+.head__avatar {
     background-image: url(../img/topbar/Avatar.png);
     background-repeat: no-repeat;
     background-position: center;
     padding: 13px 30px 13px 33px;
 }
 
-.cabecalho__switch {
+.head__switch {
     position: relative;
     display: inline-block;
     padding: 13px 30px 13px 13px;
@@ -104,13 +104,13 @@ body {
     height: 34px;
   }
   
-  .cabecalho__switch-input{
+  .head__switch-input {
     opacity: 0;
     width: 0;
     height: 0;
   }
   
-  .cabecalho__switch-slider {
+  .head__switch-slider {
     position: absolute;
     cursor: pointer;
     top: 0;
@@ -123,7 +123,7 @@ body {
     border-radius: 34px;
   }
   
-  .cabecalho__switch-slider:before {
+  .head__switch-slider:before {
     position: absolute;
     content: "";
     height: 26px;
@@ -136,24 +136,107 @@ body {
     border-radius: 50%;
   }
   
-  .cabecalho__switch-input:checked + .cabecalho__switch-slider {
+  .head__switch-input:checked + .head__switch-slider {
     background-color: var(--azul-destaque-light);
   }
   
-  .cabecalho__switch-input:focus + .cabecalho__switch-slider {
+  .head__switch-input:focus + .head__switch-slider {
     box-shadow: 0 0 1px var(--cinza-claro);
   }
   
-  .cabecalho__switch-input:checked + .cabecalho__switch-slider:before {
+  .head__switch-input:checked + .head__switch-slider:before {
     -webkit-transform: translateX(26px);
     -ms-transform: translateX(26px);
     transform: translateX(26px);
   }
 
 
+/* MENU LATERAL */
+
+.menu__container {
+    font-size: 14px;
+    background-color: var(--branco);
+}
+
+.icon__home::before {
+    content: url(../img/sidebar/home.png);
+}
+
+.icon__explore::before {
+    content: url(../img/sidebar/explore.png);
+}
+
+.icon__shorts::before {
+    content: url(../img/sidebar/airplay.png);
+}
+
+.icon__inscriptions::before {
+    content: url(../img/sidebar/subscriptions.png);
+}
+
+.icon__library::before {
+    content: url(../img/sidebar/video_library.png);
+}
+
+.icon__history::before {
+    content: url(../img/sidebar/history.png);
+}
+
+.icon__clock::before {
+    content: url(../img/sidebar/history_toggle_off.png);
+}
+
+.icon__like::before {
+    content: url(../img/sidebar/thumb_up_alt.png);
+}
+
+.icon__alura::before {
+    content: url(../img/sidebar/Avatar_Alura.png);
+}
+
+.icon__gaveta::before {
+    content: url(../img/sidebar/Avatar_Gaveta.png);
+}
+
+.icon__ballerini::before {
+    content: url(../img/sidebar/Avatar_Rafa.png);
+}
+
+.icon__iamarino::before {
+    content: url(../img/sidebar/Avatar_Atila.png);
+}
+
+.icon__souto::before {
+    content: url(../img/sidebar/Avatar_Souto.png);
+}
+
+.icon__nerd::before {
+    content: url(../img/sidebar/Avatar_Jovem_Nerd.png);
+}
+
+.icon__deschamps::before {
+    content: url(../img/sidebar/Avatar_Deschamps.png);
+}
+
+.icon__show::before {
+    content: url(../img/sidebar/keyboard_arrow_down.png);
+}
+
+.icon__videos::before {
+    content: url(../img/sidebar/ondemand_video.png);
+}
+
+.icon__films::before {
+    content: url(../img/sidebar/movie.png);
+}
+
+.icon__games::before {
+    content: url(../img/sidebar/sports_esports.png);
+}
+
 /* SECAO SUPERIOR */
 
-.superior__secao__container {
+.higher__section__container {
     height: 63px;
     color: var(--branco);
     font-size: 16px;
@@ -167,11 +250,11 @@ body {
     transform: translateX(0); */
 }
 
-.superior__secao__container-wrapper{
+.higher__section__container-wrapper{
     position: relative;
 }
 
-.superior__item {
+.higher__item {
     color: var(--cinza-escuro);
     font-size: 16px;
     background-color: var(--cinza-claro);
@@ -181,13 +264,13 @@ body {
     width: 200px;
 }
 
-.superior__item:hover {
+.higher__item:hover {
     color: var(--branco);
     background-color: var(--azul-destaque-light);
     transition: .5s;
 }
 
-.superior__slider{
+.higher__slider{
     position: absolute;
     right: 0%;
     width: 4%;
@@ -208,18 +291,18 @@ iframe{
     height: 62%;
 }
 
-.descricao-video .img-canal{
+.description-video .img-canal{
     border-radius: 100%;
     width: 40px;
     height: 40px;
 }
 
-.descricao-video .titulo-video {
+.description-video .title-video {
     font-weight: 700;
     color: var(--cinza-escuro);
 }
 
-.descricao-video .titulo-canal {
+.description-video .title-canal {
     font-size: 14px;
     color: var(--cinza-escuro);
 }  
@@ -235,9 +318,23 @@ iframe{
         height: 100vh;
     }
 
+    /* ESTILOS DO MENU LATERAL */
+
+    .menu__container {
+        font-size: 16px;
+    }
+
+    .menu__list {
+        padding-top: 15px;
+    }
+
+    .menu__list li {
+        width: 100%;
+    }
+
     /* ESTILOS DA SECAO SUPERIOR */
 
-    .superior__secao__container {
+    .higher__section__container {
         border-top: var(--azul-medio) 1px solid;
         border-bottom: var(--azul-medio) 1px solid;
         width: auto;
@@ -257,8 +354,14 @@ iframe{
 
     /* SEÇÃO SUPERIOR */
 
-    .superior__secao__container {
+    .higher__section__container {
         left: 247px;
+    }
+
+    /* ESTILOS DO MENU LATERAL */
+
+    .menu__list {
+        border-bottom: 1.5px solid var(--azul-medio);
     }
 
     /* ESTILOS VIDEOS */
