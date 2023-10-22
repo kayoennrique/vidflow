@@ -25,7 +25,7 @@ async function searchAndShowVideos() {
     } catch (error) {
         containerVideos.innerHTML = `<p> Houve um erro ao carregar os vídeos: $[error]</p>`
     } finally {
-        alert('Isso sempre acontece')
+        //alert('Isso sempre acontece')
     }
 }
 
