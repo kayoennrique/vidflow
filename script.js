@@ -1,9 +1,11 @@
+import axios from "axios";
+
 const containerVideos = document.querySelector(".videos__container");
 
 async function searchAndShowVideos() {
     try {
         const searching = await axios.get("http://localhost:3000/videos");
-        const videos = await searching.json();
+        const videos = await searching.data;
 
         videos.forEach((video) => {
             if (video.category == "") {
