@@ -1,5 +1,4 @@
-{
-    "videos": [
+[
       {
         "id": 1,
         "title": "Conhecendo a linguagem Go | Hipsters.Talks",
@@ -104,5 +103,4 @@
         "id": 13,
         "category": "Inteligência Artificial"
       }
-    ]
-  }
+]
